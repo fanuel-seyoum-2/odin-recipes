@@ -81,6 +81,7 @@ main{
 	border-radius: 20px;
 }
 img {
+	width: auto;
 	display: flex;
 	flex: 1 1 auto;
 	border-radius: 20px;
