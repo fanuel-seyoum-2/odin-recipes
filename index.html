@@ -2,15 +2,65 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<title>Recipes</title>
+    		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title> Recipes </title>
+		<link rel="stylesheet" href="style.css">
 	</head>
 
 	<body>
-		<h1>Odin Recipes</h1>
-		<ul>
-			<li> <a href="./recipes/kitfo.html" > Kitfo  </a> </li>
-			<li> <a href="./recipes/lasagna.html" >Lasagna  </a> </li>
-			<li> <a href="./recipes/pizza.html" > Pizza  </a> </li>
-		</ul>
+		<header>
+			<h1>Odin Recipes</h1>
+			<nav>
+				<ul>
+					<li> <a href="./recipes/kitfo.html" > Kitfo  </a> </li>
+					<li> <a href="./recipes/lasagna.html" >Lasagna  </a> </li>
+					<li> <a href="./recipes/pizza.html" > Pizza  </a> </li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<div class="rec-info">
+				<div class="rec-hd">
+					Dishes
+				</div>
+				<div class="rec-cards">
+					<div class="rec-crd">
+						<a href="./recipes/kitfo.html" > Kitfo  </a>
+						<div class="rec-img">
+							<img src="images/kitfo.jpg" alt="Kitfo">
+						</div>
+						<div class="rec-desc">
+							A traditional Ethiopian dish made from raw minced beef,
+							seasoned with spices and clarified butter, often served 
+							with a side of greens and cheese.
+						</div>
+					</div>
+					<div class="rec-crd">
+						<a href="./recipes/pizza.html" > Pizza  </a>
+						<div class="rec-img">
+							<img src="images/pizza.jpg" alt="Pizza">
+						</div>
+						<div class="rec-desc">
+							A flat, round base of dough topped with tomato sauce,
+							cheese, and various toppings, baked until crispy and
+							delicious
+						</div>
+					</div>
+					<div class="rec-crd">
+						<a href="./recipes/lasagna.html" > Lasagna  </a>
+						<div class="rec-img">
+							<img src="images/lasagna.jpg" alt="Lasagna">
+						</div>
+						<div class="rec-desc">
+							A layered pasta dish made with sheets of lasagna noodles,
+							cheese, meat, and sauce, baked until bubbly and golden
+						</div>
+					</div>
+				</div>
+		</main>
+		<footer>
+			Odin Recipes v1.0 | Basic CSS
+		</footer>
 	</body>
 </html>
